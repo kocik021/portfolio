@@ -5,6 +5,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 header {
+  .burger-side-menu {
+    display: none;
+  }
+  .burger-ico {
+    display: none;
+  }
   nav.side-menu {
     position: fixed;
     height: 30vh;
