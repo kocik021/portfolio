@@ -11,6 +11,13 @@ const projectsBtn = document.querySelector(".dot-projects");
 const contactBtn = document.querySelector(".dot-contact");
 const burgerIco = document.querySelector(".burger-ico");
 
+// burger buttons
+
+const jkb = document.querySelector(".JK-b");
+const aboutBtnb = document.querySelector(".dot-about-b");
+const projectsBtnb = document.querySelector(".dot-projects-b");
+const contactBtnb = document.querySelector(".dot-contact-b");
+
 // Sections
 
 const face = document.querySelector(".face");
@@ -29,6 +36,19 @@ projectsBtn.addEventListener("click", function() {
   projects.scrollIntoView({ behavior: "smooth" });
 });
 contactBtn.addEventListener("click", function() {
+  contact.scrollIntoView({ behavior: "smooth" });
+});
+
+jkb.addEventListener("click", function() {
+  face.scrollIntoView({ behavior: "smooth" });
+});
+aboutBtnb.addEventListener("click", function() {
+  about.scrollIntoView({ behavior: "smooth" });
+});
+projectsBtnb.addEventListener("click", function() {
+  projects.scrollIntoView({ behavior: "smooth" });
+});
+contactBtnb.addEventListener("click", function() {
   contact.scrollIntoView({ behavior: "smooth" });
 });
 
