@@ -105,6 +105,14 @@ header nav.social-media ul li.dot-media {
   cursor: pointer;
 }
 
+header nav.social-media ul li.dot-media a {
+  color: #adadad;
+}
+
+header nav.social-media ul li.dot-media a:visited {
+  color: #adadad;
+}
+
 header nav.social-media ul li.dot-media i {
   -webkit-transition: 0.2s;
   transition: 0.2s;

@@ -30,8 +30,8 @@ header {
         text-align: center;
         font-size: 28px;
         margin: 60px 20px;
-
         cursor: pointer;
+
         i,
         .JK {
           transition: 0.2s;
@@ -74,6 +74,12 @@ header {
         margin: 20px;
 
         cursor: pointer;
+        a {
+          color: #adadad;
+        }
+        a:visited {
+          color: #adadad;
+        }
         i {
           transition: 0.2s;
         }
